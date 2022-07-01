@@ -1,4 +1,6 @@
+import Home from "./pages/Home";
+
 const App = () => {
-  return <div>Bloom E-commerece</div>;
+  return <Home />;
 };
 export default App;
