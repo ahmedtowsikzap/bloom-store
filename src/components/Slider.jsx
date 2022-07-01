@@ -9,8 +9,32 @@ const Container = styled.div`
 `;
 
 const Wrapper = styled.div`
-
+   height: 100%;
 `
+const Slide = styled.div`
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ align-items: center;
+`
+
+const ImgContainer = styled.div`
+  flex: 1;
+  height: 100%;
+`
+const Image = styled.img`
+  height: 80%;
+`
+
+const InfoContainer = styled.div`
+  flex: 1;
+  padding: 50px;
+`
+const Title = styled.h1``
+const Desc = styled.p``
+const Button = styled.button``
+
+
 const Arrow = styled.div`
   width: 50px;
   height: 50px;
@@ -34,6 +58,19 @@ const Slider = () => {
       <Arrow direction="left">
         <ArrowLeftOutlined />
       </Arrow>
+      <Wrapper>
+        <Slide>
+        <ImgContainer>
+        <Image src="https://i.ibb.co/dgXC3KC/full-length-portrait-happy-excited-girl-bright-colorful-clothes-holding-shopping-bags-while-standing.png"/>
+        </ImgContainer>
+        <InfoContainer>
+            <Title></Title>
+            <Desc></Desc>
+            <Button>Shop Now</Button>
+
+        </InfoContainer>
+        </Slide>
+      </Wrapper>
       <Arrow direction="right">
         <ArrowRightOutlined />
       </Arrow>
