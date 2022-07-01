@@ -5,9 +5,12 @@ const Container = styled.div`
   width: 100%;
   height: 100vh;
   display: flex;
-  background-color: #d04c1b;
   position: relative;
 `;
+
+const Wrapper = styled.div`
+
+`
 const Arrow = styled.div`
   width: 50px;
   height: 50px;
@@ -23,6 +26,7 @@ const Arrow = styled.div`
   left: ${props => props.direction === "left" && "10px"};
   right: ${props => props.direction === "right" && "10px"};
   cursor: pointer;
+  opacity: 0.5;
 `;
 const Slider = () => {
   return (
