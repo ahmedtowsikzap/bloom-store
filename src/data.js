@@ -55,13 +55,14 @@ export const sliderItems = [
     },
   ];
   export const popularProducts = [
+   
     {
       id:1,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
+      img:"https://www.prada.com/content/dam/pradabkg_products/U/UCN/UCN448/11KCF0F7Z/UCN448_11KC_F0F7Z_S_221_SLF.jpg/jcr:content/renditions/cq5dam.web.hebebed.1000.1000.crop.jpg",
     },
     {
       id:2,
-      img:"https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
+      img:"https://www.prada.com/content/dam/pradanux_products/U/UPW/UPW421/1FEKF0280/UPW421_1FEK_F0280_SLF.png/jcr:content/renditions/cq5dam.web.hebebed.1000.1000.square.jpg",
     },
     {
       id:3,
@@ -69,22 +70,42 @@ export const sliderItems = [
     },
     {
       id:4,
-      img:"https://www.burdastyle.com/pub/media/catalog/product/cache/7bd3727382ce0a860b68816435d76e26/107/BUS-PAT-BURTE-1320516/1170x1470_BS_2016_05_132_front.png",
+      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
     },
     {
       id:5,
-      img:"https://images.ctfassets.net/5gvckmvm9289/3BlDoZxSSjqAvv1jBJP7TH/65f9a95484117730ace42abf64e89572/Noissue-x-Creatsy-Tote-Bag-Mockup-Bundle-_4_-2.png",
+      img:"https://www.prada.com/content/dam/pradanux_products/G/GEP/GEP331/1YNOF0008/GEP331_1YNO_F0008_S_211_SLF.png/jcr:content/renditions/cq5dam.web.hebebed.1000.1000.square.jpg",
     },
     {
       id:6,
-      img:"https://d3o2e4jr3mxnm3.cloudfront.net/Rocket-Vintage-Chill-Cap_66374_1_lg.png",
+      img:"https://www.prada.com/content/dam/pradabkg_products/P/P45/P457F/10M6F0304/P457F_10M6_F0304_S_221_SLF.jpg/jcr:content/renditions/cq5dam.web.hebebed.1000.1000.crop.jpg",
     },
     {
       id:7,
-      img:"https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
+      img:"https://www.prada.com/content/dam/pradabkg_products/P/P24/P24R1I/11GBF0009/P24R1I_11GB_F0009_S_221_SLF.jpg/jcr:content/renditions/cq5dam.web.hebebed.1000.1000.crop.jpg",
     },
     {
       id:8,
       img:"https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png",
+    },
+    {
+      id:9,
+      img:"https://www.prada.com/content/dam/pradabkg_products/P/P24/P24R1M/1094F0011/P24R1M_1094_F0011_S_222_SLF.jpg/jcr:content/renditions/cq5dam.web.hebebed.1000.1000.crop.jpg",
+    },
+    {
+      id:10,
+      img:"https://www.prada.com/content/dam/pradabkg_products/P/P25/P25L25/100FF0031/P25L25_100F_F0031_S_221_SLF.jpg/jcr:content/renditions/cq5dam.web.hebebed.1000.1000.crop.jpg",
+    },
+    {
+      id:11,
+      img:"https://www.prada.com/content/dam/pradabkg_products/1/1BC/1BC204/NZVF0DLC/1BC204_NZV_F0DLC_V_JOO_SLR.jpg/_jcr_content/renditions/cq5dam.web.hebebed.500.500.jpg",
+    },
+    {
+      id:12,
+      img:"https://www.prada.com/content/dam/pradabkg_products/1/1JO/1JO836/2FLXF02V4/1JO836_2FLX_F02V4_SLR.jpg/_jcr_content/renditions/cq5dam.web.hebebed.500.500.jpg",
+    },
+    {
+      id:13,
+      img:"https://wwws.dior.com/couture/ecommerce/media/catalog/product/cache/1/cover_image_1/870x580/17f82f742ffe127f42dca9de82fb58b1/o/4/1652964317_M04464BDG_M76P_E01_ZHC.jpg?imwidth=870",
     },
   ]
