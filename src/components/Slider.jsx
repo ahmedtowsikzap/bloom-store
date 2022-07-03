@@ -1,21 +1,27 @@
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@mui/icons-material";
+import { useState } from "react";
 import styled from "styled-components";
+import { sliderItems } from "../data";
 
 const Container = styled.div`
   width: 100%;
   height: 100vh;
   display: flex;
   position: relative;
+  overflow: hidden;
 `;
 
 const Wrapper = styled.div`
    height: 100%;
+   display: flex;
+   transform: translateX(0vw);
 `
 const Slide = styled.div`
  width: 100vw;
  height: 100vh;
  display: flex;
  align-items: center;
+ background-color: #${props=>props.bg} ;
 `
 
 const ImgContainer = styled.div`
@@ -39,7 +45,12 @@ const Desc = styled.p`
   font-weight: 500;
   letter-spacing: 2px;
 `
-const Button = styled.button``
+const Button = styled.button`
+  padding: 10px;
+  font-size: 20px;
+  background-color: transparent;
+  cursor: pointer;
+`
 
 
 const Arrow = styled.div`
@@ -58,27 +69,35 @@ const Arrow = styled.div`
   right: ${props => props.direction === "right" && "10px"};
   cursor: pointer;
   opacity: 0.5;
+  z-index: 2;
 `;
 const Slider = () => {
+  const [slideIndex, setSlideIndex] = useState(0)
+
+  const handleClick = (direction)=>{
+
+  }
   return (
     <Container>
-      <Arrow direction="left">
+      <Arrow direction="left" onClick={()=>handleClick("left")}>
         <ArrowLeftOutlined />
       </Arrow>
       <Wrapper>
-        <Slide>
-        <ImgContainer>
-        <Image src="https://i.ibb.co/dgXC3KC/full-length-portrait-happy-excited-girl-bright-colorful-clothes-holding-shopping-bags-while-standing.png"/>
-        </ImgContainer>
-        <InfoContainer>
-            <Title>EXCLUSIVE SUMMER SALE!</Title>
-            <Desc>GET FLAT 40% OFF FOR NEW ARRIVALS.</Desc>
-            <Button>SHOP NOW!</Button>
+        {sliderItems.map(item=>(
 
-        </InfoContainer>
-        </Slide>
+        <Slide bg={item.bg}>
+        <ImgContainer>
+        <Image src={item.img}/>
+       </ImgContainer>
+       <InfoContainer>
+      <Title>{item.title}</Title>
+      <Desc>{item.desc}</Desc>
+      <Button>SHOP NOW!</Button>
+      </InfoContainer>
+      </Slide>
+        ))}
       </Wrapper>
-      <Arrow direction="right">
+      <Arrow direction="right"  onClick={()=>handleClick("right")}>
         <ArrowRightOutlined />
       </Arrow>
     </Container>
