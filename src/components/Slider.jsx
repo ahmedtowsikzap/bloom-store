@@ -23,15 +23,22 @@ const ImgContainer = styled.div`
   height: 100%;
 `
 const Image = styled.img`
-  height: 85%;
+  height: 80%;
 `
 
 const InfoContainer = styled.div`
   flex: 1;
   padding: 50px;
 `
-const Title = styled.h1``
-const Desc = styled.p``
+const Title = styled.h1`
+font-size: 70px;
+`
+const Desc = styled.p`
+   margin: 50px 0px;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+`
 const Button = styled.button``
 
 
@@ -64,9 +71,9 @@ const Slider = () => {
         <Image src="https://i.ibb.co/dgXC3KC/full-length-portrait-happy-excited-girl-bright-colorful-clothes-holding-shopping-bags-while-standing.png"/>
         </ImgContainer>
         <InfoContainer>
-            <Title></Title>
-            <Desc></Desc>
-            <Button>Shop Now</Button>
+            <Title>EXCLUSIVE SUMMER SALE!</Title>
+            <Desc>GET FLAT 40% OFF FOR NEW ARRIVALS.</Desc>
+            <Button>SHOP NOW!</Button>
 
         </InfoContainer>
         </Slide>
