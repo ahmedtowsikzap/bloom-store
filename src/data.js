@@ -106,7 +106,7 @@ export const sliderItems = [
     },
     {
       id:13,
-      img:"https://wwws.dior.com/couture/ecommerce/media/catalog/product/cache/1/cover_image_1/870x580/17f82f742ffe127f42dca9de82fb58b1/o/4/1652964317_M04464BDG_M76P_E01_ZHC.jpg?imwidth=870",
+      img:"https://wwws.dior.com/couture/ecommerce/media/catalog/product/cache/1/cover_image_1/870x580/17f82f742ffe127f42dca9de82fb58b1/1/1/1606214702_M0446CBAA_M900_E01_ZHC.jpg?imwidth=870",
     },
     {
       id:14,
@@ -114,6 +114,6 @@ export const sliderItems = [
     },
     {
       id:15,
-      img:"https://wwws.dior.com/couture/ecommerce/media/catalog/product/cache/1/cover_image_1/870x580/17f82f742ffe127f42dca9de82fb58b1/o/4/1652964317_M04464BDG_M76P_E01_ZHC.jpg?imwidth=870",
+      img:"https://wwws.dior.com/couture/ecommerce/media/catalog/product/cache/1/cover_image_1/870x580/17f82f742ffe127f42dca9de82fb58b1/5/5/1651249302_M0505OCAL_M116_E01_ZHC.jpg?imwidth=870",
     },
   ]
