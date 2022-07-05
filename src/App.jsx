@@ -1,5 +1,6 @@
 import ProductList from "./pages/ProductList";
 
+
 const App = () => {
   return <ProductList />;
 };
