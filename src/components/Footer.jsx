@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Pinterest, Twitter } from "@mui/icons-material"
+import { Facebook, Instagram, MailLockRounded, PhoneAndroidOutlined, Pinterest, Room, Twitter } from "@mui/icons-material"
 import styled from "styled-components"
 
 const Container = styled.div`
@@ -12,9 +12,28 @@ const Left = styled.div`
 `
 const Center = styled.div`
     flex: 1;
+    padding: 20px;
 `
 const Right = styled.div`
     flex: 1;
+`
+const Title = styled.h3`
+    margin-bottom: 30px;
+
+`
+
+const List = styled.ul`
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+
+`
+const ListItem = styled.li`
+    width: 50%;
+    margin-bottom: 13px;
+
 `
 const Logo = styled.h1`
     
@@ -27,11 +46,23 @@ const SocialIcon = styled.div`
     height: 40px;
     border-radius: 50%;
     color: white;
+    background-color: #${props=> props.color};
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 21px;
 `
 const SocialContainer = styled.div`
     display: flex;
 `
-
+const ContactItem = styled.div`
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+`
+const Payment = styled.img`
+    width: 50%;
+`
 const Footer = () => {
   return (
     <Container>
@@ -39,25 +70,40 @@ const Footer = () => {
 <Logo>BLOOM.</Logo>
 <Desc>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi enim rerum delectus velit. Aperiam obcaecati dolore repellendus neque accusantium earum tenetur vitae, quam vero odit quod, veniam corporis illum hic.</Desc>
 <SocialContainer>
-    <SocialIcon>
-        <Facebook color="3B5999"/>
+    <SocialIcon color="3B5999">
+        <Facebook />
     </SocialIcon>
-    <SocialIcon>
-        <Instagram color="E4405F"/>
+    <SocialIcon color="E4405F">
+        <Instagram />
     </SocialIcon>
-    <SocialIcon>
-        <Twitter color="55ACEE"/>
+    <SocialIcon color="55ACEE">
+        <Twitter />
     </SocialIcon>
-    <SocialIcon>
-        <Pinterest color="E60023"/>
+    <SocialIcon color="E60023">
+        <Pinterest />
     </SocialIcon>
 </SocialContainer>
 </Left>
 <Center>
-
+  <Title>Important Links </Title>
+  <List>
+    <ListItem>Cart</ListItem>
+    <ListItem>My Account</ListItem>
+    <ListItem>Order Tracking</ListItem>
+    <ListItem>Home</ListItem>
+    <ListItem>Wishlist</ListItem>
+    <ListItem>Man's Fashion</ListItem>
+    <ListItem>Woman Fashion</ListItem>
+    <ListItem>Terms</ListItem>
+    <ListItem>Accesories</ListItem>
+  </List>
 </Center>
 <Right>
-
+  <Title>Contact</Title>
+  <ContactItem><Room style={{marginRight:"10px", color:"crimson"}}/>Manhattan 716, 67443, NY</ContactItem>
+  <ContactItem><PhoneAndroidOutlined style={{marginRight:"10px", color:"green"}}/>+1 453 55 76</ContactItem>
+  <ContactItem><MailLockRounded style={{marginRight:"10px", color:"#034f84"}}/>contact@bloomaes.com</ContactItem>
+  <Payment src="https://i.ibb.co/Qfvn4z6/payment.png"/>
 </Right>
 
     </Container>

@@ -1,7 +1,7 @@
 import {
-    FavoriteBorderOutlined,
-    SearchOutlined,
-    ShoppingCartOutlined
+  FavoriteBorderOutlined,
+  SearchOutlined,
+  ShoppingCartOutlined
 } from "@mui/icons-material";
 import styled from "styled-components";
   
@@ -40,7 +40,7 @@ import styled from "styled-components";
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background-color: white;
+    background-color: #ffffff;
     position: absolute;
   `;
   
