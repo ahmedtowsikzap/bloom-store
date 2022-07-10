@@ -75,7 +75,13 @@ const AmountContainer = styled.div`
  font-weight: 500;
 `
 const Amount = styled.span`
-
+   width: 30px;
+   height: 30px;
+   border-radius:10px ;
+   border: 1px solid orange;
+   align-items: center;
+   justify-content: center;
+   margin: 0px 5px;
 `
 const Button = styled.button`
 
@@ -115,10 +121,10 @@ const Product = () => {
             <AddContainer>
                   <AmountContainer>
                   <Add/>
-                  <Amount>1</Amount>
+                  <Amount>6</Amount>
                  <Remove/>
                   </AmountContainer>
-                  <Button>ADD TO CART</Button>
+                  <Button>Add to CART</Button>
                  </AddContainer>
         </InfoContainer>
             
