@@ -76,6 +76,7 @@ const AmountContainer = styled.div`
 `
 const Amount = styled.span`
    width: 30px;
+   display: flex;
    height: 30px;
    border-radius:10px ;
    border: 1px solid orange;
@@ -84,7 +85,15 @@ const Amount = styled.span`
    margin: 0px 5px;
 `
 const Button = styled.button`
-
+    padding: 15px;
+    border: 2px solid orange;
+    background-color: white;
+    cursor: pointer;
+    font-weight: 500;
+    color: black;
+    &:hover{
+        background-color: #e9e9e9;
+    }
 `
 const Product = () => {
   return (
