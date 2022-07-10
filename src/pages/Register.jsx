@@ -20,6 +20,8 @@ const Wrapper = styled.div`
       width: 40%;
       padding: 20px;
       background-color: white;
+      box-shadow: rgba(0, 0, 0, 0.315) 0px 15px 25px, rgba(0, 0, 0, 0.159) 0px 5px 10px;
+      border-radius: 12px;
 `
 const Form = styled.form` 
    display: flex;
@@ -47,6 +49,7 @@ const Button = styled.button`
 background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
   color: white;
   cursor: pointer;
+  border-radius: 9px;
 
 `
 
@@ -54,14 +57,14 @@ const Register = () => {
   return (
     <Container>
        <Wrapper>
-        <Title>Create an account</Title>
+        <Title>Create an Account</Title>
         <Form>
-          <Input placeholder="name"/>
-          <Input placeholder="last name"/>
-          <Input placeholder="username"/>
-          <Input placeholder="email"/>
-          <Input placeholder="password"/>
-          <Input placeholder="confirm password"/>
+          <Input placeholder="Name"/>
+          <Input placeholder="Last Name"/>
+          <Input placeholder=" Choose Username"/>
+          <Input placeholder="Your Email"/>
+          <Input placeholder="Create Password"/>
+          <Input placeholder="Re-type Password"/>
           <Agreement>
             By creating an account, I consent to the processing of my personal data in accordance with the <b>PRIVACY POLICY</b>
           </Agreement>
