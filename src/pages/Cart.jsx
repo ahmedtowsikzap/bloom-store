@@ -36,6 +36,11 @@ const TopButton = styled.button`
   color: ${props=>props.type === "filled" && "white" };
 
 `
+const Hr = styled.hr`
+  background-color: #eee;
+  border: none;
+  height: 1px;
+`
 const Bottom = styled.div`
   display: flex;
   justify-content: space-between;
@@ -89,6 +94,20 @@ const PriceDetail = styled.div`
   flex-direction: column;
 
 `
+const ProductAmountContainer = styled.div`
+  display: flex;
+  align-items: center;
+  margin-bottom: 19px;
+
+`
+const ProductAmount = styled.div`
+  font-size: 18px;
+  margin: 6px;
+`
+const Productprice= styled.div`
+  font-size: 27px;
+  font-weight: 500;
+`
 
 
 const Cart = () => {
@@ -110,9 +129,9 @@ const Cart = () => {
               <Info>
                 <Product>
                   <ProductDetail>
-                    <Image src="https://static-01.daraz.com.bd/p/ea78662af47dddcb7aa7bb5733e7ca3c.jpg"/>
+                    <Image src="https://smartsalez.in/EaseSalezDoc//ProductMainImage/86970_rothirtyonekgrey_0_140921120017.jpg"/>
                     <Details>
-                      <ProductName><b>Product:</b> Shirt with dalia</ProductName>
+                      <ProductName><b>Product:</b> Bag</ProductName>
                       <ProductId><b>ID:</b> 238423482349123859</ProductId>
                       <ProductColor color="black"/>
                       <ProductSize><b>Size:</b>26.4</ProductSize>
@@ -124,11 +143,52 @@ const Cart = () => {
                         <ProductAmount>3</ProductAmount>
                         <Remove/>
                        </ProductAmountContainer>
+                       <Productprice>$ 220</Productprice>
+                  </PriceDetail>
+                </Product>
+                <Hr/>
+                <Product>
+                  <ProductDetail>
+                    <Image src="https://media.cnn.com/api/v1/images/stellar/prod/allbirds-sneakers-review-wool-runnerjpg.jpg?q=h_1090,w_1938,x_0,y_0"/>
+                    <Details>
+                      <ProductName><b>Product:</b> Shirt with dalia</ProductName>
+                      <ProductId><b>ID:</b> 238423482349123859</ProductId>
+                      <ProductColor color="gray"/>
+                      <ProductSize><b>Size:</b>26.4</ProductSize>
+                    </Details>
+                  </ProductDetail>
+                  <PriceDetail>
+                       <ProductAmountContainer>
+                        <Add/> 
+                        <ProductAmount>1</ProductAmount>
+                        <Remove/>
+                       </ProductAmountContainer>
+                       <Productprice>$ 47</Productprice>
                   </PriceDetail>
                 </Product>
 
               </Info>
-              <Summary>Summary</Summary>
+              <Summary>
+                <SummaryTitle>Order Summary</SummaryTitle>
+                <SummaryItem>
+                  <SummaryItemText>Subtotal</SummaryItemText>
+                  <SummaryItemPrice>$ 108</SummaryItemPrice>
+                </SummaryItem>
+                <SummaryItem>
+                  <SummaryItemText>Estimated Shipping</SummaryItemText>
+                  <SummaryItemPrice>$ 8.23</SummaryItemPrice>
+                </SummaryItem>
+                <SummaryItem>
+                  <SummaryItemText>Shipping Discount</SummaryItemText>
+                  <SummaryItemPrice>$ -7.90</SummaryItemPrice>
+                </SummaryItem>
+                <SummaryItem>
+                  <SummaryItemText type="total">Total</SummaryItemText>
+                  <SummaryItemPrice>$ 109</SummaryItemPrice>
+                </SummaryItem>
+                <Button>Checkout Now!</Button>
+                
+                </Summary>
             </Bottom>
         </Wrapper>
         <Footer/>
