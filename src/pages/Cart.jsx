@@ -1,3 +1,4 @@
+import { Add, Remove } from "@mui/icons-material";
 import styled from "styled-components";
 import Announcement from "../components/Announcement";
 import Footer from "../components/Footer";
@@ -46,6 +47,48 @@ const Summary = styled.div`
   flex: 1;
   
 `
+const Details = styled.div`
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+
+`
+
+const Product = styled.div`
+  display: flex;
+  justify-content: space-between;
+`
+const ProductDetail = styled.div`
+  flex: 2;
+  display: flex;
+`
+const Image = styled.img`
+  width: 200px;
+`
+const ProductName = styled.span`
+  
+`
+const ProductColor = styled.div`
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: ${props=> props.color};
+`
+const ProductId= styled.span`
+  
+`
+const ProductSize = styled.span`
+  
+`
+const PriceDetail = styled.div`
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+`
 
 
 const Cart = () => {
@@ -71,12 +114,16 @@ const Cart = () => {
                     <Details>
                       <ProductName><b>Product:</b> Shirt with dalia</ProductName>
                       <ProductId><b>ID:</b> 238423482349123859</ProductId>
-                      <ProductColor/>
-                      <ProductSize><b>ID:</b> 238423482349123859</ProductSize>
+                      <ProductColor color="black"/>
+                      <ProductSize><b>Size:</b>26.4</ProductSize>
                     </Details>
                   </ProductDetail>
                   <PriceDetail>
-
+                       <ProductAmountContainer>
+                        <Add/> 
+                        <ProductAmount>3</ProductAmount>
+                        <Remove/>
+                       </ProductAmountContainer>
                   </PriceDetail>
                 </Product>
 
