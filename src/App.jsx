@@ -1,5 +1,5 @@
-import Register from "./pages/Register";
+import ProductList from "./pages/ProductList";
 const App = () => {
-  return <Register />;
+  return <ProductList />;
 };
 export default App;
