@@ -1,5 +1,6 @@
-import styled from 'styled-components'
-const Container = styled.div` 
+import styled from 'styled-components';
+import { mobile } from "../responsive";
+const Container = styled.div`;
  width: 100vw;
  height: 100vh;
  background: linear-gradient(
@@ -21,6 +22,7 @@ const Wrapper = styled.div`
       background-color: white;
       box-shadow: rgba(7, 106, 254, 0.341) -5px 5px, rgba(46, 240, 117, 0.489) -10px 10px, rgba(240, 156, 30, 0.364) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
       border-radius: 13px;
+      ${mobile({width: "75%"})}
 `
 const Form = styled.form` 
    display: flex;
