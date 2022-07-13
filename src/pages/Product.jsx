@@ -72,6 +72,7 @@ const AddContainer = styled.div`
  width: 50%;
  align-items: center;
  justify-content: space-between;
+ ${mobile({width: "100%"})}
 `
 
 const AmountContainer = styled.div`
