@@ -1,8 +1,10 @@
 import { Facebook, Instagram, MailLockRounded, PhoneAndroidOutlined, Pinterest, Room, Twitter } from "@mui/icons-material"
 import styled from "styled-components"
+import { mobile } from "../responsive"
 
 const Container = styled.div`
     display: flex;
+    ${mobile({flexDirection: "column"})}
 `
 const Left = styled.div`
     flex: 1;
@@ -13,9 +15,12 @@ const Left = styled.div`
 const Center = styled.div`
     flex: 1;
     padding: 20px;
+    ${mobile({display: "none"})}
 `
 const Right = styled.div`
     flex: 1;
+    ${mobile({backgroundColor: "#fff8f8", marginLeft:"10px"})}
+    
 `
 const Title = styled.h3`
     margin-bottom: 30px;
