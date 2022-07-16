@@ -33,6 +33,39 @@ const Banner = () => {
                     <p></p>
                 </Carousel.Caption>
             </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    className="d-block w-100"
+                    src="https://images.pexels.com/photos/10221402/pexels-photo-10221402.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="First slide"
+                />
+                <Carousel.Caption>
+                    <h6>Design</h6>
+                    <p></p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    className="d-block w-100"
+                    src="https://images.pexels.com/photos/9077993/pexels-photo-9077993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="First slide"
+                />
+                <Carousel.Caption>
+                    <h6>Design</h6>
+                    <p></p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    className="d-block w-100"
+                    src="https://images.pexels.com/photos/1368614/pexels-photo-1368614.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="First slide"
+                />
+                <Carousel.Caption>
+                    <h6>Design</h6>
+                    <p></p>
+                </Carousel.Caption>
+            </Carousel.Item>
         </Carousel> 
         </Container>
   )
