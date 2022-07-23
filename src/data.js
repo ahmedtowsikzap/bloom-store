@@ -25,33 +25,39 @@ export const sliderItems = [
   export const categories = [
     {
       id: 1,
-      img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "SHIRT LOCUTION!",
+      img: "https://i.pinimg.com/564x/4a/54/bd/4a54bdb6ce30ace0b9cf0d6ad996153e.jpg",
+      title: "PUFFER JACKET",
+      cat:"women"
     },
     {
       id: 2,
       img: "https://i.pinimg.com/564x/0f/b0/5f/0fb05fbe1edaa02461cb50e45e40ae22.jpg",
       title: "LOUNGEWEAR LOVE",
+      cat:"coat"
     },
     {
       id: 3,
-      img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      title: "LIGHT JACKETS",
+      img: "https://i.pinimg.com/564x/d7/95/ec/d795ecb26f650252dcd56168436166da.jpg",
+      title: "MULTI POC BAGGY",
+      cat:"jeans"
     },
     {
       id: 4,
       img: "https://i.pinimg.com/564x/13/fb/dd/13fbdd666627904631bd054b6c1b4194.jpg",
       title: "BEIGE SHORTS",
+      cat:"shorts"
     },
     {
       id: 5,
-      img: "https://i.pinimg.com/564x/4a/54/bd/4a54bdb6ce30ace0b9cf0d6ad996153e.jpg",
-      title: "PUFFER JACKET",
+      img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      title: "SHIRT LOCUTION!",
+      cat:"women"
     },
     {
+      
       id: 6,
-      img: "https://i.pinimg.com/564x/d7/95/ec/d795ecb26f650252dcd56168436166da.jpg",
-      title: "MULTI POC BAGGY",
+      img: "https://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      title: "LIGHT JACKETS",
     },
   ];
   export const popularProducts = [

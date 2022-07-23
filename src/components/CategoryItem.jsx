@@ -24,7 +24,7 @@ align-items: center;
 justify-content: center;
 flex-direction: column;
 `
-const Title = styled.h1`
+const Title = styled.h2`
 color: white;
 margin-bottom: 20px;
 `
