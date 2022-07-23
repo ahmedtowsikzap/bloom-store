@@ -37,7 +37,7 @@ const SearchContainer = styled.div`
 `;
 const Input = styled.input`
   border: none;
-  ${mobile({width: "50px"})}
+  ${mobile({width: "45px"})}
 `;
 const Center = styled.div`
   flex: 1;
@@ -46,7 +46,7 @@ const Center = styled.div`
 
 const Logo = styled.h1`
   font-weight: bold;
-  ${mobile({fontSize: "24px"})}
+  ${mobile({fontSize: "22px"})}
 `;
 const Right = styled.div`
   flex: 1;
