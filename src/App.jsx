@@ -1,5 +1,5 @@
 import {
-  BrowserRouter as Router, Route, Switch
+  BrowserRouter as Router, Redirect, Route, Switch
 } from "react-router-dom";
 import Home from "../src//pages/Home";
 import Cart from "./pages/Cart";
@@ -8,6 +8,7 @@ import Product from "./pages/Product";
 import ProductList from "./pages/ProductList";
 import Register from "./pages/Register";
 const App = () => {
+  const user = true
   return (
     <Router>
       <Switch>
@@ -24,9 +25,11 @@ const App = () => {
           <Cart />
         </Route>
         <Route path="/login">
+          {user ? <Redirect to="/"/> : <Login/>}
           <Login />
         </Route>
         <Route path="/register">
+        {user ? <Redirect to="/"/> : <Register/>}
           <Register />
         </Route>
       </Switch>
