@@ -38,7 +38,7 @@ export const sliderItems = [
     {
       id: 3,
       img: "https://i.pinimg.com/564x/d7/95/ec/d795ecb26f650252dcd56168436166da.jpg",
-      title: "MULTI POC BAGGY",
+      title: "BAGGY POCKETS",
       cat:"jeans"
     },
     {
